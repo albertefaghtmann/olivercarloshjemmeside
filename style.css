@@ -2,7 +2,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #333;
 }
 
@@ -21,6 +20,11 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+.menu {
+  display: flex;
+  overflow-x: auto;
 }
 
 a {
@@ -66,4 +70,10 @@ a {
 .h1 {
   font-family: "overskrift1";
   color: white;
+}
+
+#myVideo {
+  position: absolute;
+  top: 77px;
+  width: 100%;
 }
